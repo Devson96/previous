@@ -1,0 +1,131 @@
+/* PAGE BACKGROUND */
+
+body{
+background: linear-gradient(135deg,#141e30,#243b55);
+font-family:'Segoe UI', sans-serif;
+color:white;
+min-height:100vh;
+}
+
+/* TITLE */
+
+.title{
+color:white;
+letter-spacing:1px;
+}
+
+
+/* GLASS EFFECT */
+
+.glass{
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(12px);
+border-radius:15px;
+border:1px solid rgba(255,255,255,0.15);
+}
+
+
+/* GENERAL CARD STYLE */
+
+.card{
+transition:0.35s ease;
+border:none;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.25);
+}
+
+/* CARD HOVER */
+
+.card:hover{
+transform:translateY(-10px) scale(1.03);
+box-shadow:0 15px 35px rgba(0,0,0,0.5);
+}
+
+
+/* SUBJECT CARDS */
+
+.subject-card{
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+color:white;
+padding:25px;
+}
+
+
+/* SUBJECT CARD COLORS */
+
+.card1{
+border-top:5px solid #00eaff;
+}
+
+.card2{
+border-top:5px solid #ff9f43;
+}
+
+.card3{
+border-top:5px solid #ff6b6b;
+}
+
+
+/* SEMESTER CARDS */
+
+.sem-card{
+height:180px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+padding:25px;
+border-radius:20px;
+}
+
+
+/* SEMESTER COLORS */
+
+.sem1{
+background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.sem2{
+background:linear-gradient(135deg,#43cea2,#185a9d);
+}
+
+.sem3{
+background:linear-gradient(135deg,#ff7e5f,#feb47b);
+}
+
+.sem4{
+background:linear-gradient(135deg,#00c6ff,#0072ff);
+}
+
+.sem5{
+background:linear-gradient(135deg,#f7971e,#ffd200);
+}
+
+.sem6{
+background:linear-gradient(135deg,#8e2de2,#4a00e0);
+}
+
+
+/* BUTTON STYLE */
+
+.view-btn,
+.sem-card .btn{
+border-radius:25px;
+font-weight:600;
+padding:8px 22px;
+background:linear-gradient(135deg,#43cea2,#185a9d);
+color:black;
+border:none;
+transition:0.3s;
+}
+
+.view-btn:hover,
+.sem-card .btn:hover{
+background:linear-gradient(135deg,#43cea2,#185a9d);
+color:white;
+}
+
+.card {
+    background:linear-gradient(135deg,#fafafa,#756a8c);
+}
